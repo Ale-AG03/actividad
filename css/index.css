@@ -1,0 +1,531 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* menu */
+.menu0
+{
+    width: 100%;
+    height: 100px;
+    background-color:255, 255, 255 ;
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    justify-content:space-around;
+}
+
+.menu0 input
+{
+    border: none;
+    border-bottom: 1px solid;
+    font-size:20px;
+    outline: none;
+    padding-left: 10px;
+    
+}
+.menu0 input:hover
+{
+    border-bottom: 2px solid;
+}
+.menu0 div a
+{
+    font-size: 20px;
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(29, 29, 54);
+}
+
+/* barra de navegacion */
+nav
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(29, 29, 54);
+
+    width: 100%;
+    height: 50px;
+}
+/* nav ul
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    justify-content: space-between;
+    border: 2px solid rgb(29, 29, 54);
+} */
+nav ul a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20PX;
+    margin-left: 20px;
+    width: 30px;
+    height: 10px;
+    border: 20 solid red;
+}
+nav ul a:hover
+{
+    color: rgb(203, 202, 251)
+}
+/* seccion 1 */
+
+.sec1
+{
+    background-image: url(../img/SEC1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+
+    display: flex;
+    align-items: center;
+}
+
+.sec1 .cubo
+{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(92, 90, 219);
+    margin: 150px; 
+    padding-top: 100px; 
+    padding-left: 50px; 
+}
+
+.sec1 .cubo h1
+{
+    font-size: 70px;
+    color: white;
+}
+.sec1 .cubo h2
+{
+    font-size: 50px;
+    color: white;
+}
+.sec1 .cubo input
+{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    background-color: rgb(29, 29, 54);
+}
+.sec1 .cubo input:hover
+{
+    background-color: rgb(92, 90, 219);
+    border: 1px solid white;
+}
+
+/* seccion 2 */
+
+.sec2
+{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    height: 300px;
+}
+
+.secc
+{
+    width: 70%;
+}
+.secc input
+{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    background-color: rgb(92, 90, 219);
+}
+.secc input:hover
+{
+    background-color: white;
+    color: rgb(29, 29, 54);
+    border: 1px solid  rgb(29, 29, 54);
+}
+
+.sec2 h1
+{
+    font-size: 60px;
+    color: rgb(29, 29, 54);
+  
+
+}
+.sec2 div p
+{
+    font-size: 20px;
+    color: rgb(29, 29, 54);
+
+}
+
+/* seccion 3 */
+
+.sec3 
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:  rgb(29, 29, 54) ;
+}
+.cubosec3
+{
+    width: 50%;
+    color:  rgb(92, 90, 219) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cubosec3 div 
+{
+    width: 60%;
+}
+.cubosec3 h1
+{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.cubosec3 h2
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.cubosec3 input 
+{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    background-color: rgb(92, 90, 219);
+}
+.cubosec3 input:hover 
+{
+    background-color: white;
+    color: rgb(29, 29, 54);
+    border: 1px solid  rgb(29, 29, 54);
+}
+.img
+{
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2
+{
+    width: 50%;
+    height: 600px;
+    background-image: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*responsive*/
+@media(max-width: 1000px)
+{
+    .img
+    {
+        height: 450px;
+    }
+    .img2 
+    {
+        height: 450px;
+    }
+}
+
+
+
+
+/* seccion 3 */
+
+.sec4 
+{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+/* 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    
+    /* flex-wrap: wrap; */
+}
+
+.sec4 h1 
+{
+    font-size: 50px;
+    margin: 100px;
+}
+.sec4 input 
+{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    background-color: rgb(29, 29, 54);
+}
+.sec4 input:hover 
+{
+    background-color: rgb(92, 90, 219);
+    border: 1px solid white;
+}
+
+.cont-img
+{
+    width: 100%;
+    height: 320px;
+    margin-top: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    /* border: 2px solid blue; */
+    /* margin: 10px; */
+
+}
+/* .cont-img div
+{
+    width: 50%;
+    margin: 10px;
+} */
+
+.sec4-1,.sec4-2,.sec4-3 
+{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+}
+.sec4-1 h1,.sec4-2 h1,.sec4-3 h1 
+{
+    font-size: 30px;
+}
+
+.sec4-1
+{
+    background-image:linear-gradient(to right, rgb(0 0 0 / 0.5),rgb(0 0 0 / 0.5)), url(../img/sec4-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec4-2
+{
+    background-image:linear-gradient(to right, rgb(0 0 0 / 0.5),rgb(0 0 0 / 0.5)), url(../img/sec4-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec4-3
+{
+    background-image:linear-gradient(to right, rgb(0 0 0 / 0.5),rgb(0 0 0 / 0.5)), url(../img/sec4-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* seccion 5 */
+
+.sec5
+{
+    width: 100%;
+    height: 800px;
+    background-color:  rgb(92, 90, 219);
+    padding-top:280px ;
+}
+.titulo
+{
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.tdimg 
+{
+    height: 800px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imgsec1,.imgsec2,.imgsec3,.imgsec4,.imgsec5,.imgsec6,.imgsec7,.imgsec8,.imgsec9,.imgsec10,.imgsec11,.imgsec12
+{
+    width: 20%;
+    height: 300px;
+    margin: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*responsive*/
+@media(max-width: 1000px)
+{
+    .imgsec1,.imgsec2,.imgsec3,.imgsec4,.imgsec5,.imgsec6,.imgsec7,.imgsec8,.imgsec9,.imgsec10,.imgsec11,.imgsec12
+    {
+        margin: 1%;
+        height: 200px;
+        
+    }
+}
+
+.imgsec1
+{
+    background-image: url(../img/01.jpg);
+}
+.imgsec2
+{
+    background-image: url(../img/02.jpg);
+}
+.imgsec3
+{
+    background-image: url(../img/03.jpg);
+}
+.imgsec4
+{
+    background-image: url(../img/04.jpg);
+}
+.imgsec5
+{
+    background-image: url(../img/05.jpg);
+}
+.imgsec6
+{
+    background-image: url(../img/06.jpg);
+}
+.imgsec7
+{
+    background-image: url(../img/07.jpg);
+}
+.imgsec8
+{
+    background-image: url(../img/08.jpg);
+}
+.imgsec9
+{
+    background-image: url(../img/09.jpg);
+}
+.imgsec10
+{
+    background-image: url(../img/10.jpg);
+}
+.imgsec11
+{
+    background-image: url(../img/11.jpg);
+
+}
+.imgsec12
+{
+    background-image: url(../img/12.jpg);
+
+}
+
+/* seccion 6 */
+
+.sec6 
+{
+    padding-top: 700px;
+    height: 400px;
+    /* border: 2px solid rgb(89, 255, 0); */
+}
+
+.texto-6 
+{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: rgb(29, 29, 54) ;
+}
+.texto-6 h2 
+{
+    font-size: 30px;
+}
+.input-6
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto 
+{
+    width: 50%;
+    height: 50px;
+    border: none;
+    padding-left: 10px;
+    color: white;
+    font-size:20px ;
+    outline: none;
+    background-color: rgb(92, 90, 219) ;
+}
+
+.input 
+{
+    width: 200px;
+    height: 50px;
+    /* margin-top: 30px; */
+    color: white;
+    border: none;
+    background-color: rgb(29, 29, 54);
+}
+
+
+/*responsive*/
+@media(max-width: 1000px)
+{
+    .sec6 
+    {
+        padding-top: 500px;
+        height: 800px;
+        border: 2px solid rgb(89, 255, 0);
+    }
+}
+
+
+
+/* FOODER */
+.fooder
+{
+    border: 1px solid red;
+    height: 400px;
+    background-color:rgb(29, 29, 54);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fooder h1 
+{
+    color: rgb(92, 90, 219);
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+
+.dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+ul 
+{
+    list-style-type: none;
+    
+}
+ul li a 
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
